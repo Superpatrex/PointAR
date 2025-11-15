@@ -2,7 +2,7 @@ import cv2
 import os
 
 # --- Config ---
-OUTPUT_DIR = "dataset_negatives"
+OUTPUT_DIR = "dataset_day2"
 IMAGE_DIR = os.path.join(OUTPUT_DIR, "images")
 LABEL = "lamp"  # The object you are capturing
 # --------------
