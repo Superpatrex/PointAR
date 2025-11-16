@@ -12,7 +12,7 @@ if not ROBOFLOW_API_KEY:
     )
 WORKSPACE_ID = "emoryhacks"
 PROJECT_ID = "lamp-detector-lxnem"
-VERSION_NUMBER = 2
+VERSION_NUMBER = 3
 # -----------------------------
 
 # 1. Download Dataset from Roboflow

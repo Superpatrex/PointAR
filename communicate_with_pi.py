@@ -17,7 +17,7 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = str(
     # NOTE: You are using 'run12', make sure this is correct!
-    BASE_DIR / "lamp_detection" / "lamp_detector" / "run12" / "weights" / "best.pt"
+    BASE_DIR / "lamp_detection" / "lamp_detector" / "run13" / "weights" / "best.pt"
 )
 CONF_THRESHOLD = 0.5        # We can use a lower threshold now
 HIT_FRAMES = 8              # dwell frames needed to "select" an object
